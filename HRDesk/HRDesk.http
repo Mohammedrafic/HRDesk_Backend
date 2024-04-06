@@ -1,0 +1,6 @@
+@HRDesk_HostAddress = http://localhost:5105
+
+GET {{HRDesk_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
