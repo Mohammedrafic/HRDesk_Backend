@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRDesk", "HRDesk\HRDesk.csproj", "{3185C2AE-0C25-499A-84D4-6C09AABF5ACF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HRDesk", "HRDesk\HRDesk.csproj", "{3185C2AE-0C25-499A-84D4-6C09AABF5ACF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HRDesk.BL", "HRDesk.BL\HRDesk.BL.csproj", "{B9005C18-7E88-44D3-A713-DAB87F159A0F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HRDesk.DL", "HRDesk.DL\HRDesk.DL.csproj", "{0060C265-98A4-47C7-8C59-08B2A99B066F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRDesk.Models", "HRDesk.Models\HRDesk.Models.csproj", "{E434295E-9800-44DB-A8E5-FD8B9EFB6464}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{3185C2AE-0C25-499A-84D4-6C09AABF5ACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3185C2AE-0C25-499A-84D4-6C09AABF5ACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3185C2AE-0C25-499A-84D4-6C09AABF5ACF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9005C18-7E88-44D3-A713-DAB87F159A0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9005C18-7E88-44D3-A713-DAB87F159A0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9005C18-7E88-44D3-A713-DAB87F159A0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9005C18-7E88-44D3-A713-DAB87F159A0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0060C265-98A4-47C7-8C59-08B2A99B066F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0060C265-98A4-47C7-8C59-08B2A99B066F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0060C265-98A4-47C7-8C59-08B2A99B066F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0060C265-98A4-47C7-8C59-08B2A99B066F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E434295E-9800-44DB-A8E5-FD8B9EFB6464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E434295E-9800-44DB-A8E5-FD8B9EFB6464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E434295E-9800-44DB-A8E5-FD8B9EFB6464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E434295E-9800-44DB-A8E5-FD8B9EFB6464}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
